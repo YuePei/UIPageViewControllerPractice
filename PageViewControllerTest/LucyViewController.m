@@ -1,3 +1,4 @@
+
 //
 //  LucyViewController.m
 //  PageViewControllerTest
@@ -7,31 +8,25 @@
 //
 
 #import "LucyViewController.h"
+#define MAS_SHORTHAND
+#import "Masonry.h"
+#import "BBScrollView.h"
 
 @interface LucyViewController ()
+
 
 @end
 
 @implementation LucyViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    float r = arc4random() % 255;
+    float g = arc4random() % 255;
+    float b = arc4random() % 255;
+    UIColor *randomColor = [UIColor colorWithRed:r / 255.0 green:g / 255.0 blue:b / 255.0 alpha:1];
+    self.view.backgroundColor = randomColor;
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

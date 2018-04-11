@@ -10,4 +10,8 @@
 
 @interface BBScrollView : UIScrollView
 
+
+//唯一需要实现的方法
+- (BBScrollView *)initWithFrame:(CGRect )frame items:(NSArray *)items;
+- (void)selectIndexWithButton:(UIButton *)button;
 @end

@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol PleaseDelegate <NSObject>
+@required
+- (NSArray *)pleaseConfigTheTitles;
+- (NSArray *)pleaseConfigTheChildViewControllers;
+
+@end
+
 @interface LucyViewController : UIViewController
+//delegate
+@property (nonatomic, assign)id<PleaseDelegate> delegate;
 
 @end

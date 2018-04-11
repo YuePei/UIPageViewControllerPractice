@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2620FC73E3F0E065FE7BDA04 /* libPods-PageViewControllerTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE1A1A404770F23948B5A05 /* libPods-PageViewControllerTest.a */; };
+		9C02BEEA207CEB6B00D340F6 /* BBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C02BEE9207CEB6B00D340F6 /* BBScrollView.m */; };
 		9F168AE3207AFA7300FBEC46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F168AE2207AFA7300FBEC46 /* AppDelegate.m */; };
 		9F168AE6207AFA7300FBEC46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F168AE5207AFA7300FBEC46 /* ViewController.m */; };
 		9F168AE9207AFA7300FBEC46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F168AE7207AFA7300FBEC46 /* Main.storyboard */; };
 		9F168AEB207AFA7300FBEC46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F168AEA207AFA7300FBEC46 /* Assets.xcassets */; };
 		9F168AEE207AFA7300FBEC46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F168AEC207AFA7300FBEC46 /* LaunchScreen.storyboard */; };
 		9F168AF1207AFA7300FBEC46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F168AF0207AFA7300FBEC46 /* main.m */; };
+		9F168B03207B027F00FBEC46 /* LucyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F168B02207B027F00FBEC46 /* LucyViewController.m */; };
+		9FF6B235207C8B9A00EEC964 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6B234207C8B9A00EEC964 /* TestViewController.m */; };
+		9FF6B238207C8C4300EEC964 /* AATopTitlesControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6B237207C8C4300EEC964 /* AATopTitlesControl.m */; };
+		9FF6B23B207C9D7100EEC964 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF6B23A207C9D7100EEC964 /* OneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FE1A1A404770F23948B5A05 /* libPods-PageViewControllerTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PageViewControllerTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CC92BD47C576C72552291D3 /* Pods-PageViewControllerTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageViewControllerTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PageViewControllerTest/Pods-PageViewControllerTest.release.xcconfig"; sourceTree = "<group>"; };
+		23B97E9D87A5B5973ABF990A /* Pods-PageViewControllerTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageViewControllerTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PageViewControllerTest/Pods-PageViewControllerTest.debug.xcconfig"; sourceTree = "<group>"; };
+		9C02BEE8207CEB6B00D340F6 /* BBScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBScrollView.h; sourceTree = "<group>"; };
+		9C02BEE9207CEB6B00D340F6 /* BBScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBScrollView.m; sourceTree = "<group>"; };
 		9F168ADE207AFA7300FBEC46 /* PageViewControllerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageViewControllerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F168AE1207AFA7300FBEC46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F168AE2207AFA7300FBEC46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +37,14 @@
 		9F168AED207AFA7300FBEC46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F168AEF207AFA7300FBEC46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F168AF0207AFA7300FBEC46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F168B01207B027F00FBEC46 /* LucyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LucyViewController.h; sourceTree = "<group>"; };
+		9F168B02207B027F00FBEC46 /* LucyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LucyViewController.m; sourceTree = "<group>"; };
+		9FF6B233207C8B9A00EEC964 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		9FF6B234207C8B9A00EEC964 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		9FF6B236207C8C4300EEC964 /* AATopTitlesControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AATopTitlesControl.h; sourceTree = "<group>"; };
+		9FF6B237207C8C4300EEC964 /* AATopTitlesControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AATopTitlesControl.m; sourceTree = "<group>"; };
+		9FF6B239207C9D7100EEC964 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		9FF6B23A207C9D7100EEC964 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2620FC73E3F0E065FE7BDA04 /* libPods-PageViewControllerTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +64,8 @@
 			children = (
 				9F168AE0207AFA7300FBEC46 /* PageViewControllerTest */,
 				9F168ADF207AFA7300FBEC46 /* Products */,
+				CA1A3458B6F2FB521B0A6128 /* Pods */,
+				C40D7AE51268AD801D27AE69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +84,16 @@
 				9F168AE2207AFA7300FBEC46 /* AppDelegate.m */,
 				9F168AE4207AFA7300FBEC46 /* ViewController.h */,
 				9F168AE5207AFA7300FBEC46 /* ViewController.m */,
+				9F168B01207B027F00FBEC46 /* LucyViewController.h */,
+				9F168B02207B027F00FBEC46 /* LucyViewController.m */,
+				9FF6B233207C8B9A00EEC964 /* TestViewController.h */,
+				9FF6B234207C8B9A00EEC964 /* TestViewController.m */,
+				9FF6B236207C8C4300EEC964 /* AATopTitlesControl.h */,
+				9FF6B237207C8C4300EEC964 /* AATopTitlesControl.m */,
+				9FF6B239207C9D7100EEC964 /* OneViewController.h */,
+				9FF6B23A207C9D7100EEC964 /* OneViewController.m */,
+				9C02BEE8207CEB6B00D340F6 /* BBScrollView.h */,
+				9C02BEE9207CEB6B00D340F6 /* BBScrollView.m */,
 				9F168AE7207AFA7300FBEC46 /* Main.storyboard */,
 				9F168AEA207AFA7300FBEC46 /* Assets.xcassets */,
 				9F168AEC207AFA7300FBEC46 /* LaunchScreen.storyboard */,
@@ -71,6 +103,23 @@
 			path = PageViewControllerTest;
 			sourceTree = "<group>";
 		};
+		C40D7AE51268AD801D27AE69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FE1A1A404770F23948B5A05 /* libPods-PageViewControllerTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA1A3458B6F2FB521B0A6128 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23B97E9D87A5B5973ABF990A /* Pods-PageViewControllerTest.debug.xcconfig */,
+				1CC92BD47C576C72552291D3 /* Pods-PageViewControllerTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +127,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F168AF4207AFA7300FBEC46 /* Build configuration list for PBXNativeTarget "PageViewControllerTest" */;
 			buildPhases = (
+				9D2CF9E2018537798FA7BDAF /* [CP] Check Pods Manifest.lock */,
 				9F168ADA207AFA7300FBEC46 /* Sources */,
 				9F168ADB207AFA7300FBEC46 /* Frameworks */,
 				9F168ADC207AFA7300FBEC46 /* Resources */,
+				9E73C2595DFA7FA8F6565214 /* [CP] Embed Pods Frameworks */,
+				CFE1FE88684655993B2568F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,14 +189,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D2CF9E2018537798FA7BDAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PageViewControllerTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E73C2595DFA7FA8F6565214 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PageViewControllerTest/Pods-PageViewControllerTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFE1FE88684655993B2568F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PageViewControllerTest/Pods-PageViewControllerTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F168ADA207AFA7300FBEC46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F168B03207B027F00FBEC46 /* LucyViewController.m in Sources */,
 				9F168AE6207AFA7300FBEC46 /* ViewController.m in Sources */,
+				9FF6B238207C8C4300EEC964 /* AATopTitlesControl.m in Sources */,
 				9F168AF1207AFA7300FBEC46 /* main.m in Sources */,
 				9F168AE3207AFA7300FBEC46 /* AppDelegate.m in Sources */,
+				9FF6B23B207C9D7100EEC964 /* OneViewController.m in Sources */,
+				9C02BEEA207CEB6B00D340F6 /* BBScrollView.m in Sources */,
+				9FF6B235207C8B9A00EEC964 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,11 +384,13 @@
 		};
 		9F168AF5207AFA7300FBEC46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B97E9D87A5B5973ABF990A /* Pods-PageViewControllerTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47A3N54MRY;
 				INFOPLIST_FILE = PageViewControllerTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Peyton.PageViewControllerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -290,11 +400,13 @@
 		};
 		9F168AF6207AFA7300FBEC46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC92BD47C576C72552291D3 /* Pods-PageViewControllerTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47A3N54MRY;
 				INFOPLIST_FILE = PageViewControllerTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Peyton.PageViewControllerTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
